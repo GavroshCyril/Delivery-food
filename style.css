@@ -14,6 +14,10 @@ a{
     text-decoration: none;
 }
 
+li{
+    list-style: none;
+}
+
 .container{
     max-width: 1195px;
     margin: 0 auto;
@@ -316,4 +320,121 @@ a{
 
 .category{
     background-color: #F6F6F6;
+    padding-bottom: 60px;
+}
+
+.category__title{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 23px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.category__tabs{
+    display: flex;
+    margin-bottom: 62px;
+}
+
+.tabs__link{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #49494F;
+    margin-right: 58px;
+}
+
+.active{
+    color: #F37321;
+}
+
+.tabs__link:last-child{
+    margin-left: 0;
+}
+
+.tabs__container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tabs__card{
+    max-width: 270px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.tabs__image{
+    max-width: 100%;
+}
+
+.tabs__card-content{
+    padding: 20px 27px 0 23px;
+}
+
+.tabs__title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.tabs__description{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: #B9B9BE;
+    margin-top: 13px;
+    margin-bottom: 36px;
+}
+
+.tabs__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 21px;
+}
+
+.tabs__good{
+    display: flex;
+    flex-direction: column;
+}
+
+.tabs__price{
+    color: #4B4B51;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 23px;
+    margin-bottom: 5px;
+}
+
+.tabs__weight{
+    color: #AAAAB1;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.tabs__button{
+    color: #F37321;
+    background-color: #FFF;
+    border: 2px solid #F37321;
+    box-sizing: border-box;
+    border-radius: 33px;
+    padding: 16px 25px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.tabs__button:hover{
+    background: #FFA871;
+    color: #FFFFFF;
+}
+
+.tabs__main-button{
+    display: block;
+    padding: 16px 104px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
 }
