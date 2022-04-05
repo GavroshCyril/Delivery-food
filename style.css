@@ -172,9 +172,12 @@ a{
 .promo{
     margin-top: 50px;
     margin-bottom: 110px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .card{
+    flex: 50%;
     border-radius: 20px;
     overflow: hidden;
     padding: 36px 0 31px 32px;
@@ -187,6 +190,13 @@ a{
 
 .card:nth-child(1){
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/card-01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card:nth-child(2){
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/card-02.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
