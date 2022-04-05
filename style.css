@@ -237,3 +237,79 @@ a{
     margin-bottom: 25px;
 }
 
+.delivery__title{
+    margin-bottom: 47px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 23px;
+}
+
+.delivery__cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+    padding-bottom: 100px;
+}
+
+.delivery__card{
+    width: 275px;
+    height: 182px;
+    border-radius: 18px;
+    overflow: hidden;
+    position: relative;
+    margin: 15px;
+}
+
+.delivery__image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.delivery__tag{
+    position: absolute;
+    left: 10px;
+    top: 16px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+.tag-helth{
+    background-color: #D0FD89;
+    color: #49494F;
+}
+
+.tag-vegetables{
+    background-color: #AEBC41;
+}
+
+.tag-meat{
+    background-color: #B86B78;
+}
+
+.tag-fish{
+    background-color: #CD6255; 
+}
+
+.tag-bird{
+    background-color: #D68334; 
+}
+
+.tag-kids{
+    background-color: #FFFDBF; 
+    color: #49494F;
+}
+
+.tag-parents{
+    background-color: #FFFDBF; 
+    color: #49494F;
+}
+
+.tag-holidays{
+    background-color: #F6FDC8; 
+    color: #49494F;
+}
