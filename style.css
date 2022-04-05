@@ -2,10 +2,16 @@
 
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body{
     font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
 }
 
 .container{
@@ -148,9 +154,76 @@ body{
     transition: 0.3s ease-in-out;
 }
 
+.button__default{
+    background: #FFFFFF;
+    border-radius: 50px;
+    color: #5F5F61;
+    padding: 13px 52px;
+    display: inline-block;
+    transition: 0.3s ease-in-out;
+}
+
 .slide__button:hover{
     background-color: white;
     color: #EC762A;
     box-sizing: border-box;
+}
+
+.promo{
+    margin-top: 50px;
+    margin-bottom: 110px;
+}
+
+.card{
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 36px 0 31px 32px;
+    max-width: 570px;
+    min-height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card:nth-child(1){
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/card-01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card__text-light{
+    color: #FFFFFF;
+}
+
+.card__header{
+    margin-bottom: 21px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 23px;
+}
+
+.card__description{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    width: 200px;
+    margin-top: 21px;
+}
+
+.card__price{
+    font-weight: 500;
+    font-size: 24px;
+    display: block;
+    line-height: 23px;
+    margin-bottom: 8px;
+}
+
+.card__delivery{
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23px;
+    margin-bottom: 25px;
 }
 
